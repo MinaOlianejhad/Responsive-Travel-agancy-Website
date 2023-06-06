@@ -1,0 +1,118 @@
+ * {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-weight: 700;
+    font-family: 'YekanBakhMedium','iranyekanwebregular', Arial, Helvetica, sans-serif;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    background-image: url(../img/355651.jpg);
+    background-size: cover;
+}
+
+.login-div{
+    width: 380px;
+    height: 550px;
+    background-color: #ecf0f3;
+    padding: 35px 35px 30px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 5px 5px #00000031, 
+    -2px -2px 5px 5px #00000031;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50PX;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f,
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #afaaa7,
+    -8px -8px 15px #ffffff;
+}
+
+.logo img {
+   object-fit: cover; 
+   border-radius: 50PX;
+   width: 100%;
+   height: 100%;
+}
+
+.title {
+    text-align: center;
+    font: 28px YekanBakhHeavy;
+    padding-top: 20px;
+}
+
+.fields {
+    width: 100%;
+    padding: 35px 5px 5px 5px;
+}
+
+.fields input {
+    border: none;
+    background: none;
+    font: 15px YekanBakhMedium;
+    padding: 20px 5px 20px 5px;
+}
+
+.username, .password {
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 8px #ceced1,
+    -8px -8px 8px #ffffff;
+}
+.svg-icon {
+    height: 22px;
+    margin: 0px 20px -4px 5px;
+}
+
+.login-button {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    background-color: #cbb62d;
+    border-radius: 30px;
+    font: 1.3rem YekanBakhBold;
+    color: #000000;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+    transition: all .2s ease-in;
+}
+
+.login-button:hover {
+    background-color: #b9a527;
+}
+
+.link {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}
+
+@media (max-width: 470px){
+    .login-div{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        padding: 50px 25px;
+    }
+    .fields input {
+        font-size: 0.8em;
+    }
+    .svg-icon {
+        margin: 0px 20px -7px 5px;
+    }
+}
